@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout | Joyful Restaurant</title>
+    <link rel="stylesheet" href="styles for checkout.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="checkout.html">Checkout</a></li>
+        </ul>
+    </nav>
+
+    <!-- Checkout Header Section -->
+    <header class="checkout-hero">
+        <h1>Checkout</h1>
+        <p>Review your order and enter your delivery details.</p>
+    </header>
+
+    <!-- Order Summary Section -->
+    <section id="order-summary">
+        <h2>Your Order</h2>
+        <div id="order-items"></div>
+        <p>Total: <span id="total-price">₦0</span></p>
+    </section>
+
+    <!-- Delivery Details Section -->
+    <section id="delivery-details">
+        <h2>Delivery Information</h2>
+        <form id="checkout-form">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" required>
+
+            <label for="address">Delivery Address:</label>
+            <textarea id="address" required></textarea>
+
+            <label for="Card Number">Card Number:</label>
+            <input type="tel" id="Cardnum" required></input>
+
+            <button type="submit">Place Order</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Joyful Restaurant | All Rights Reserved</p>
+    </footer>
+
+    <script src="checkout.js"></script>
+</body>
+</html>

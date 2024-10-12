@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu | Joyful Restaurant</title>
+    <link rel="stylesheet" href="styles for menu.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="checkout.html">Checkout</a></li>
+        </ul>
+    </nav>
+
+    <!-- Menu Header Section -->
+    <header class="menu-hero">
+        <h1>Our Delicious Menu</h1>
+        <p>Explore our variety of Continental and Traditional Nigerian dishes with customizable options.</p>
+    </header>
+
+    <!-- Menu Section -->
+    <section id="menu">
+        <div class="menu-container">
+
+            <!-- Continental Foods Section -->
+            <div class="menu-category">
+                <h2>Continental Foods</h2>
+                <div class="menu-items">
+
+                    <div class="menu-item"></div>
+                        <img src="https://via.placeholder.com/150" alt="Jollof Rice">
+                        <h3><input type="checkbox" id="jollof-checkbox">
+                        <label for="jollof-checkbox">Jollof Rice - ₦1,600 per plate</label></h3>
+                        <label for="quantity-jollof">Quantity:</label>
+                        <input type="number" id="quantity-jollof" value="1" min="1" disabled>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="https://via.placeholder.com/150" alt="Nigerian Fried Rice">
+                        <h3><input type="checkbox" id="fried-rice-checkbox">
+                        <label for="fried-rice-checkbox">Nigerian Fried Rice - ₦1,800 per plate</label></h3>
+                        <label for="quantity-fried-rice">Quantity:</label>
+                        <input type="number" id="quantity-fried-rice" value="1" min="1" disabled>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="https://via.placeholder.com/150" alt="Spaghetti">
+                        <h3><input type="checkbox" id="spaghetti-checkbox">
+                        <label for="spaghetti-checkbox">Spaghetti - ₦1,600 per plate</label></h3>
+                        <label for="quantity-spaghetti">Quantity:</label>
+                        <input type="number" id="quantity-spaghetti" value="1" min="1" disabled>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="https://via.placeholder.com/150" alt="Beans Porridge">
+                        <h3><input type="checkbox" id="beans-checkbox">
+                        <label for="beans-checkbox">Beans Porridge - ₦1,500 per plate</label></h3>
+                        <label for="quantity-beans">Quantity:</label>
+                        <input type="number" id="quantity-beans" value="1" min="1" disabled>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="https://via.placeholder.com/150" alt="Yam and Eggs">
+                        <h3><input type="checkbox" id="yam-checkbox">
+                        <label for="yam-checkbox">Yam and Eggs - ₦2,000 per plate</label></h3>
+                        <label for="quantity-yam">Quantity:</label>
+                        <input type="number" id="quantity-yam" value="1" min="1" disabled>
+                    </div>
+
+                </div>
+            </div>    
+
+            <!-- Traditional Foods Section -->
+            <div class="menu-category">
+                <h2>Traditional Foods</h2>
+                <div class="menu-items">
+
+                    <div class="menu-item">
+                        <img src="https://via.placeholder.com/150" alt="Eba">
+                        <input type="checkbox" id="eba-checkbox">
+                        <label for="eba-checkbox">Eba - ₦300 per wrap</label>
+                        <label for="quantity-eba">Quantity:</label>
+                        <input type="number" id="quantity-eba" value="1" min="1" disabled>
+                        <label for="soup-eba">Choose a Soup:</label>
+                        <select id="soup-eba" class="soup-choice" disabled>
+                            <option value="egusi">Egusi Soup</option>
+                            <option value="okra">Okra Soup</option>
+                            <option value="efo">Efo Riro</option>
+                        </select>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="https://via.placeholder.com/150" alt="Fufu">
+                        <input type="checkbox" id="fufu-checkbox">
+                        <label for="fufu-checkbox">Fufu - ₦200 per wrap</label>
+                        <label for="quantity-fufu">Quantity:</label>
+                        <input type="number" id="quantity-fufu" value="1" min="1" disabled>
+                        <label for="soup-fufu">Choose a Soup:</label>
+                        <select id="soup-fufu" class="soup-choice" disabled>
+                            <option value="egusi">Egusi Soup</option>
+                            <option value="okra">Okra Soup</option>
+                            <option value="efo">Efo Riro</option>
+                        </select>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="https://via.placeholder.com/150" alt="Semovita">
+                        <input type="checkbox" id="semovita-checkbox">
+                        <label for="semovita-checkbox">Semovita - ₦300 per wrap</label>
+                        <label for="quantity-semovita">Quantity:</label>
+                        <input type="number" id="quantity-semovita" value="1" min="1" disabled>
+                        <label for="soup-semovita">Choose a Soup:</label>
+                        <select id="soup-semovita" class="soup-choice" disabled>
+                            <option value="egusi">Egusi Soup</option>
+                            <option value="okra">Okra Soup</option>
+                            <option value="efo">Efo Riro</option>
+                        </select>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="https://via.placeholder.com/150" alt="Amala">
+                        <input type="checkbox" id="amala-checkbox">
+                        <label for="amala-checkbox">Amala - ₦300 per wrap</label>
+                        <label for="quantity-amala">Quantity:</label>
+                        <input type="number" id="quantity-amala" value="1" min="1" disabled>
+                        <label for="soup-amala">Choose a Soup:</label>
+                        <select id="soup-amala" class="soup-choice" disabled>
+                            <option value="egusi">Egusi Soup</option>
+                            <option value="okra">Okra Soup</option>
+                            <option value="efo">Efo Riro</option>
+                        </select>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="https://via.placeholder.com/150" alt="Iyan (Pounded Yam)">
+                        <input type="checkbox" id="iyan-checkbox">
+                        <label for="iyan-checkbox">Iyan (Pounded Yam) - ₦400 per wrap</label>
+                        <label for="quantity-iyan">Quantity:</label>
+                        <input type="number" id="quantity-iyan" value="1" min="1" disabled>
+                        <label for="soup-iyan">Choose a Soup:</label>
+                        <select id="soup-iyan" class="soup-choice" disabled>
+                            <option value="egusi">Egusi Soup</option>
+                            <option value="okra">Okra Soup</option>
+                            <option value="efo">Efo Riro</option>
+                        </select>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Add-ons Section -->
+            <div class="add-ons">
+                <h3>Customize Your Meal</h3>
+                <label for="add-on-meat">Meat (₦500 per portion):</label>
+                <input type="number" id="add-on-meat" value="0" min="0">
+
+                <label for="add-on-fish">Fish (₦800 per portion):</label>
+                <input type="number" id="add-on-fish" value="0" min="0">
+
+                <label for="add-on-egg">Boiled Eggs (₦100 per egg):</label>
+                <input type="number" id="add-on-egg" value="0" min="0">
+            </div>
+
+            <!-- Proceed to Checkout Button -->
+            <button id="proceed-to-checkout">Proceed to Checkout</button>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Joyful Restaurant | All Rights Reserved</p>
+    </footer>
+
+    <script src="script for menu.js"></script>
+</body>
+</html>
